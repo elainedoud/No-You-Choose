@@ -15,9 +15,18 @@ form.addEventListener('submit', (event) => {
         randomBreweryDisplay.href = randomBrewery.website_url
         theBrewery.append(randomBreweryDisplay)
         console.log(randomBreweryDisplay)
+        const redoButton = document.querySelector("#button")
+        redoButton.addEventListener('click', (event) => {
+            event.preventDefault()
+            const randomBrewery = data[Math.floor(Math.random()*data.length)]
+            randomBreweryDisplay.textContent = randomBrewery.name
+            randomBreweryDisplay.href = randomBrewery.website_url
+})
     })
 
 })
+
+
 
 const zipcodeText = document.querySelector("#users-zipcode")
 const zipcodeSubmit = document.querySelector("#zipcode-submit")
