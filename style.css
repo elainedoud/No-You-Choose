@@ -1,4 +1,43 @@
-#title {
+#myVideo {
+    position: static;
+    height: 100vh;
+    display: flex;
+    align: center;
+    justify-content: center;
+
+}
+
+#maincontent {
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 100px, 100px, 100px, 100px 
+}
+
+#button {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#button: hover {
+    background: #ddd;
+    color: black;
+}
+
+#color-mode {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 100px, 100px, 100px, 100px 
+
+/*#title {
     background-color: yellow;
     padding: 15 px;
     text-align: center;
@@ -11,28 +50,7 @@
 }
 
 #display-result {
-    padding: 15 px;
+    font-size: 50 px;
+    font-style: bold;
+    padding: 50 px;
 }
-
-body {
-    position: relative;
-}
-
-#test {
-    background-color: red;
-    height: 75 px;
-    position: absolute;
-    bottom: 0px;
-    width: 75 px;
-    height: 75 px;
-}
-
-#color-mode {
-    background-color: green;
-    height: 60px;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 0px;
-}
-
