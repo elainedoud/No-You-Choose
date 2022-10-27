@@ -1,4 +1,7 @@
 const form = document.querySelector("#form")
+const theBrewery = document.querySelector("#result")
+const randomBreweryDisplay = document.querySelector("#display-result")
+const colorSwitcher = document.querySelector("#color_button")
 
 form.addEventListener('submit', (event) => {
     event.preventDefault()
@@ -9,11 +12,9 @@ form.addEventListener('submit', (event) => {
     .then(data => {
         console.log(data)
         const randomBrewery = data[Math.floor(Math.random()*data.length)]
-        const randomBreweryDisplay = document.createElement('a')
-        const theBrewery = document.querySelector("#result")
         randomBreweryDisplay.textContent = randomBrewery.name
         randomBreweryDisplay.href = randomBrewery.website_url
-        theBrewery.append(randomBreweryDisplay)
+        //theBrewery.append(randomBreweryDisplay)
         console.log(randomBreweryDisplay)
         const redoButton = document.querySelector("#button")
         redoButton.addEventListener('click', (event) => {
@@ -24,6 +25,10 @@ form.addEventListener('submit', (event) => {
 })
     })
 
+})
+colorSwitcher.addEventListener('click', (event) => {
+    let switcher = document.getElementById('middle')
+    switcher.classList.toggle('middletwo')
 })
 
 

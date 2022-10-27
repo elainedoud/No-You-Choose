@@ -1,21 +1,115 @@
+
+
 #myVideo {
-    position: static;
-    height: 100vh;
-    display: flex;
-    align: center;
-    justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#header {
+    position:fixed;
+    top: 20px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    top: 0;
+    background-color: yellow;
+    padding: 15 px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    padding: 100px, 100px, 100px, 100px  */
+} 
+
+#headertwo {
+    position:fixed;
+    top: 20px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    top: 0;
+    background-color: yellow;
+    padding: 15 px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    padding: 100px, 100px, 100px, 100px  */
+} 
+
+.middle {
+    position: fixed;
+    top: 40%;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
 
 }
 
-#maincontent {
+.middletwo {
+    position: fixed;
+    top: 40%;
+    color: blue;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#footer {
+text-align: center;
+position: fixed;
+bottom: 10px;
+background: rgba(0, 0, 0, 0.5);
+color: #f1f1f1;
+width: 100%;
+padding: 20px;
+}
+
+#footer2 {
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    }
+
+#display-result{
+    font-size: 50px;
+    color: white;
+    display: block;
+}
+
+#display-result2{
+    font-size: 50px;
+    color: white;
+    display: block;
+}
+
+
+
+
+
+ /* #maincontent {
     position: fixed;
     top: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     padding: 100px, 100px, 100px, 100px 
-}
+} 
 
-#button {
+ #button {
     width: 200px;
     font-size: 18px;
     padding: 10px;
@@ -23,7 +117,7 @@
     background: #000;
     color: #fff;
     cursor: pointer;
-}
+} 
 
 #button: hover {
     background: #ddd;
@@ -37,20 +131,30 @@
     color: #f1f1f1;
     padding: 100px, 100px, 100px, 100px 
 
-/*#title {
+title {
     background-color: yellow;
     padding: 15 px;
     text-align: center;
 } 
 
-#subtitle {
+subtitle {
     background-color: yellow;
     padding: 15 px;
     text-align: center;
 }
 
-#display-result {
+display-result {
     font-size: 50 px;
     font-style: bold;
     padding: 50 px;
 }
+
+#mid {
+    position: fixed; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 50%; 
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 50px, 50px, 50px, 50px;  */
