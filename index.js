@@ -27,8 +27,8 @@ form.addEventListener('submit', (event) => {
 
 })
 colorSwitcher.addEventListener('click', (event) => {
-    let switcher = document.getElementById('middle')
-    switcher.classList.toggle('middletwo')
+    let switcher = document.getElementById('color_button')
+    switcher.classList.toggle('color_button')
 })
 
 

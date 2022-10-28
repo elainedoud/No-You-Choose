@@ -1,4 +1,6 @@
-
+body {
+    background-color: black;
+}
 
 #myVideo {
   height: 100vh;
@@ -7,7 +9,7 @@
 
 #header {
     position:fixed;
-    top: 20px;
+    top: 0px;
     left: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
@@ -97,7 +99,22 @@ padding: 20px;
     display: block;
 }
 
+#title {
+    color: #FFD700; 
+    font-size: 40px;
+}
 
+#button {
+    margin-top: 20px;
+}
+
+#display-result {
+    margin-top: 20px;
+}
+
+.color_button {
+background-color: #FFD700; 
+}
 
 
 
